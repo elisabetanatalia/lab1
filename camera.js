@@ -27,5 +27,5 @@ function capteaza()
 
 const cnvs= document.querySelector("video");
 cnvs.addEventListener("touchstart", capteaza);
-cnvs.addEventListener("mousedown", capteaza);
+cnvs.addEventListener("click", capteaza);
 
