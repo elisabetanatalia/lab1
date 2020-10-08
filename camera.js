@@ -25,5 +25,7 @@ function capteaza()
    
 }
 
-video.addEventListener("touchstart", capteaza);
-video.addEventListener("mousedown", capteaza);
+const cnvs= document.querySelector("video");
+cnvs.addEventListener("touchstart", capteaza);
+cnvs.addEventListener("mousedown", capteaza);
+
