@@ -25,7 +25,7 @@ function capteaza()
    
 }
 
-var cnvs= document.querySelector("video");
+const cnvs= document.querySelector("video");
 cnvs.addEventListener("touchstart", capteaza);
 cnvs.addEventListener("click", capteaza);
 
